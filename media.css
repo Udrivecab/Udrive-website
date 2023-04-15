@@ -1,0 +1,652 @@
+@media screen and (max-width: 1024px) {
+    nav{
+        padding: 3vh 5vw;
+    }
+
+    .flex{
+        width:60%
+    }
+
+    .section-appended{
+        height: 150vh;
+    }
+}
+
+
+
+@media screen and (max-width: 858px) {
+
+    nav .group{
+        width: 40%;
+    }
+    
+    nav .group2{
+        width: 30%;
+    }
+
+
+    .image-container{
+        height: 25vh;
+    }
+
+    .flex{
+        width: 80%;
+    }
+
+    .section6 .container{
+        height: 100vh;
+    }
+
+    .section6 {
+        height: 100vh;
+    }
+
+    .section-appended{
+        height: 130vh;
+    }
+
+    .section7 .container{
+        padding: 10vh 5vw;
+        height: 120vh;
+    }
+
+    .hero{
+        height: 40vh;
+    }
+
+    h1{
+        font-size: 7vw;
+        line-height: 7vw;
+    }
+
+
+    button{
+        width:40vw;
+
+    }
+
+    .section2{
+        height: 135vh;
+        flex-direction: column-reverse;
+        justify-content: unset;
+        
+    }
+
+    .section2 .img-container{
+        width: 70vw;
+
+    }
+
+    .section2 .container{
+        margin-top: 0;
+        width: 80vw;
+        height: 80vh;
+        padding-right: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        align-self: center;
+    }
+
+    .section2 .container h3{
+        text-align: center;
+    }
+ 
+    .section2 .container p{
+        text-align: center;
+    }
+
+    h3{
+        font-size: 7vw;
+        line-height: 7vw;
+    }
+
+    .section3{
+         height: 65vh;
+    }
+
+    .section3 .container{
+        height: 80%;
+    }
+
+    .section4{
+        height: 50vh;
+    }
+
+    .section6 .container{
+        width: 90vw;
+    }
+
+    .flex{
+        width: 70%;
+    }
+
+    .section7 .container{
+        width: 90vw;
+    }
+
+    .features{
+        width: 80vw;
+    }
+
+}
+
+
+@media screen and (max-width: 720px) {
+    nav .group{
+        display: none;
+    }
+
+    nav .group2{
+        display: none;
+    }
+
+    .hamburger{
+        width: 40px;
+        height: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+    }
+
+    .line{
+        width: 100%;
+        height: 1px;
+        background-color: #fff;
+    }
+    
+    .show{
+        display: flex;
+    }
+
+
+    .mobile-nav{
+        position: fixed;
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        /* background-image: url(./images/mobile-nav-bg.jpg); */
+        background-color: #0F017A;
+        z-index: 9999;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .mobile-nav .container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 60vh;
+        justify-content: space-between;
+        align-items: center;
+ }
+
+    .mobile-nav .group{
+        display: flex;
+        flex-direction: column;
+        height: 40vh;
+        justify-content: space-between;
+    }
+
+    .mobile-nav #outline{
+        border: 1px solid white;
+        background-color: transparent;
+    }
+
+    .mobile-nav #solid{
+        background-color: #9792FF;
+    }
+
+
+
+    .mobile-nav .group2{
+        display: flex;
+        justify-content: space-between;
+        width: fit-content;
+        column-gap: 16px;
+    }
+
+    .mobile-nav .hamburger{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top:4vh;
+        right: 5vw;
+    }
+
+    .mobile-nav .line:nth-child(1){
+        position: absolute;
+        transform: rotate(45deg);
+    }
+
+    .mobile-nav .line:nth-child(2){
+        position: absolute;
+        transform: rotate(-45deg);
+    }
+
+    .flex{
+        width: 85%;
+    }
+
+    .section6 .container{
+        height: 120vw;
+        padding: 10vh 0;
+    }
+
+    .image-container{
+        overflow: hidden;
+        margin-bottom: 0;
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .image-container img{
+        height: 100%;
+        width: auto;
+    }
+
+    .section-appended{
+        height: 120vw;
+    }
+
+    .section8 h3{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+
+
+@media screen and (max-width: 541px) {
+    h1{
+        font-size: 42px;
+        line-height: 42px;
+        text-align: left;
+        width: 100%;
+    }
+
+    button{
+        width: 50vw;
+        font-size: 16px;
+    }
+
+    .section1 .container{
+        justify-content: space-between;
+        padding: 10vh 0 10vh 0;
+    }
+
+    h3{
+        font-size: 9vw;
+        line-height: 9vw;
+    }
+
+    h2{
+        margin-bottom: 0;
+    }
+
+    h4{
+        font-size: 14px;
+        padding: 15px 30px;
+    }
+
+
+    .hero{
+        padding: 0px 5vw;
+        align-items: flex-start;
+        height: 38vh;
+    }
+
+    .chat-anim{
+        align-self: flex-end;
+        margin: 0;
+        width: 90vw;
+    }
+    
+    .section2{
+        height: fit-content;
+        row-gap: 48px;
+        padding-left: 0;
+    }
+
+    .section2 .container{
+        width: 90vw;
+        height: fit-content;
+        row-gap: 24px;
+        align-items: flex-start;
+    }
+
+    .section2 .container h3{
+        text-align: left;
+    }
+
+    .section2 .container p{
+        text-align: left;
+    }
+
+    .section3{
+        height: 70vh;
+    }
+
+    .section3 .container{
+        width: 90vw;
+    }
+
+    .section5{
+        height: 40vh;
+    }
+
+    .section5 .container{
+        width: 90vw;
+    }
+
+    .section6{
+        height: 110vh;
+    }
+
+    .section6 .container{
+        height: 85%;
+        padding: 5vw 5%;
+
+    }
+
+    
+
+    .flex{
+        width: 90%;
+    }
+
+    .image-container{
+        width: 100%;
+    }
+
+    .section-appended{
+        margin-bottom: 5vh;
+    }
+
+    .img-container{
+        width: 100vw;
+    }
+
+    .section-appended .group img{
+        height: 13vw;
+    }
+
+    .section7{
+        height: 230vh;
+        align-items: flex-start;
+    }
+
+    .section7 .container{
+        height: 120vh;
+    }
+
+    .features{
+        grid-template-columns: auto;
+    }
+
+    .section8 .container{
+        padding: 16vh 2vw;
+    }
+
+    .section8 .flex{
+        width: 70%;
+    }
+
+
+ /* 
+
+
+
+
+CSS FOR LOGISTICS PAGE */
+
+.sec1-logistics .container{
+    justify-content: end;
+    padding: 10vh 0 10vh 0;
+}
+
+.sec1-logistics .hero{
+    height: fit-content;
+    row-gap: 20px;
+}
+
+.sec2-logistics{
+    margin-top: 0;
+    padding-bottom: 0;
+}
+
+.sec2-logistics .container{
+    height: fit-content;
+}
+
+.sec2-logistics .img-container{
+    width: 100%;
+}
+
+.sec2-logistics .message-anim{
+    top: 0;
+}
+
+.sec3-logistics{
+    flex-direction: column;
+}
+
+.sec3-logistics .delivery-anim{
+    height: 150px;
+    top:0;
+    left: 0;
+}
+
+
+.sec3-logistics .img-container{
+    width: 100%;
+}
+
+.sec3-logistics .container{
+    padding-left: 0;
+}
+
+
+.sec4-logistics .img-container{
+    width: 100%;
+}
+
+.sec4-logistics .container{
+    padding-left: 0;
+}
+
+
+.sec5-logistics .container{
+    margin-left: 0;
+    margin-top: 10vh;
+}
+
+.sec5-logistics .group img{
+    height: 13vw;
+}
+
+.sec5-logistics .map-anim{
+    width: 100%;
+}
+
+
+
+ /* 
+
+
+
+
+CSS FOR UDRIVERS PAGE*/
+
+.sec1-udriver{
+    background-position: 12% 50%;
+}
+
+.sec1-udriver .container{
+    justify-content: end;
+    padding: 10vh 0 0 0;
+}
+
+button{
+    width: fit-content;
+    padding: 0px 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec1-udriver .hero{
+    height: fit-content;
+    row-gap: 20px;
+}
+
+.sec2-udriver{
+    margin-top: 0;
+    padding-bottom: 0;
+}
+
+.sec2-udriver .container{
+    height: fit-content;
+}
+
+.sec2-udriver .img-container{
+    width: 100%;
+}
+
+
+.sec5-udriver .container{
+    margin-left: 0;
+    margin-top: 10vh;
+}
+
+.sec5-udriver .group img{
+    height: 13vw;
+}
+
+.sec5-udriver .img-container{
+    width: 100%;
+}
+
+
+ /* 
+
+
+
+
+CSS FOR SERVICES PAGE*/
+.sec1-services .container{
+    justify-content: end;
+    padding: 10vh 0 10vh 0;
+}
+
+.sec1-services .hero{
+    height: fit-content;
+    row-gap: 20px;
+}
+
+.sec5-services .img-container{
+    width: 100%;
+}
+
+.sec5-services{
+    flex-direction: column;
+}
+
+.sec5-services .container{
+    margin-left: 0;
+    margin-top: 10vh;
+}
+
+.sec5-services .group img{
+    height: 13vw;
+}
+
+
+
+
+}
+
+
+@media screen and (max-width: 425px) {
+
+    h1{
+        font-size: 44px;
+    }
+
+    h3{
+        font-size: 36px;
+    }
+
+    .hero{
+        height: 40vh;
+    }
+
+
+    .section2 .container{
+        width: 90vw;
+        height: fit-content;
+        align-items: flex-start;
+    }
+
+    .section3{
+        height: 60vh;
+    }
+
+    .section3 .container{
+        height: 90%;
+    }
+
+    
+
+
+    .blur{
+        transform: rotate(0deg);  
+    }
+
+    .section5{
+        height: 35vh;
+    }
+
+    .section5 .container{
+        height: 90%;
+    }
+
+    .section-appended{
+        height: 84vh;
+        margin-bottom: 0;
+    }
+
+    .section7{
+        height: 230vh;
+        align-items: flex-start;
+    }
+
+    .section7 .container{
+        height: 115vh;
+    }
+
+
+    .section6{
+        height: 120vh;
+    }
+
+    .section6 .container{
+        height: 85%;
+    }
+    
+
+   .section6 .flex{
+    height: 15vh;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-between;
+   }
+}
